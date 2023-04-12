@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0d024159 0%, #0d024159 100%), url(../images/logo_festival3.jpeg);
+    background-image: linear-gradient(180deg, #0d024159 0%, #0d024159 100%), url(../images/IMG-20220415-WA0005.jpg);
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
     z-index: -1;
@@ -204,7 +204,7 @@ body{
 /* Testimony */
 
 .testimony{
-    background-color: #bbb66d;
+    background-color: #bbb66db9;
 }
 
 .testimony__container{
@@ -242,6 +242,13 @@ body{
 
 .testimony__texts{
     max-width: 700px;
+}
+
+.testimony__course{
+    background-color: #685927;
+    color: antiquewhite;
+    display: inline-block;
+    padding: 5px;
 }
 
 .testimony__arrow{
